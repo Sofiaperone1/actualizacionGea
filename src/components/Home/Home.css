@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&display=swap');
+/* BANNER */
+
+.homeBackg{background-image: url(../../Imgs/fondoB.jpg); height: 580px;    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12%;}
+
+.homeBackg h1 { font-family: 'Caveat', cursive; color: white; font-size:120px ; margin-bottom: 0px;}
+
+.homeBackg h3  { font-family: 'Caveat', cursive; color: white; font-size: 42px; margin-top: 0px;}
+
+.homeBtn {margin-top: 0px;}
+button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.homeBtn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
+  background: linear-gradient(to bottom, #d1940b, #584e1b78);
+    border-color: #ffffff3f;
+    font-family: 'Rancho', cursive;
+    font-size: 16px;
+    color: #fff2f2;
+    background-color: #af822f;
+    margin-bottom: 25%;
+}
+
+/* MEET US */
+
+.meetUs {display: flex; justify-content:center;margin-top: 5%; background-color: rgb(255, 254, 254);}
+.meetUs-text {width: 35%; margin-left: 3%; margin-right: 10%;}
+.meetUs-text h2 {font-family: 'Arima Madurai', cursive; font-size: 28px; margin-bottom: 4%;}
+.meetUs-text h4 {font-family: 'Arima Madurai', cursive; ; font-size: 16px; font-weight: 200;}
+button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-sghohy-MuiButtonBase-root-MuiButton-root{background-color: rgba(15, 130, 136, 0.76);font-family: 'Arima Madurai', cursive;}
+hr.MuiDivider-root.MuiDivider-middle.css-ft4jij-MuiDivider-root {width: 25%; border-color: rgba(17, 141, 148, 0.76);border-bottom-width: medium; margin-left: 0px;}
+
+/* FOLLOW US */
+
+.followUs {display: flex; flex-direction: column; align-items: center;margin-top: 6%;}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-1v1ksuj-MuiSvgIcon-root {color:#b173d1;}
+.followUs h1 {font-family: 'Arima Madurai', cursive; margin-top: 8px;margin-bottom: 10px;}
+.followUs h3 {font-family: 'Arima Madurai', cursive; font-weight: 300; }
+.followUs h3 span {color: #b173d1;}
+hr.MuiDivider-root.MuiDivider-fullWidth.css-9mgopn-MuiDivider-root {width: 150px;border-color: #b173d1;border-bottom-width:initial}
+
+/* OTHER LINKS */
+
+.otherLinks {display: flex;
+  flex-direction: column;font-family: 'Arima Madurai', cursive;}
+.otherLinks h4 {font-weight: 300; margin-top: 0px;}
+.otherLinks h2 { margin-bottom: 5px;}
+.otherLinks h1 {margin-bottom: 5px; margin-top: 7px
+  0e;}
+.firstContainer {text-align: -webkit-center; margin-bottom:2%}
+.secondContainer {display: flex; justify-content: space-evenly;}
+.firstLineC {width: 20%;}
+.secondLineC{width: 20%;}
+.imgRotativa {width: 30%;}
+

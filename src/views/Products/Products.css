@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.themeBars {background-color: rgba(207, 207, 207, 0.753);height: 80px;text-align: center;}
+.themeBars h1 { font-family: 'DM Serif Display', serif; margin-top: 1%;color: #423f3f;}
+
+.productFinders {background-color: rgba(255, 255, 255, 0.986);
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 1%
+};
+
+.MuiInputBase-root.MuiInputBase-colorPrimary.css-7mt4h1-MuiInputBase-root{background-color: #80808014;}
+
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+        height: 41px;
+        margin-top: 2.5%;
+        background-color: #8080801a;
+    }
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover {background-color: #c47ae96b;}
+.MuiFormControl-root.css-oibiuj-MuiFormControl-root {margin-right: 3%;}
+.MuiInputBase-root.MuiInputBase-colorPrimary.css-7mt4h1-MuiInputBase-root {font-family: 'Arima Madurai', cursive; }
+.css-1lsmbw4 {border: solid 1px #80808075; color: black;}
+.MuiInputBase-root.MuiInputBase-colorPrimary.css-7mt4h1-MuiInputBase-root:hover {background-color: #c47ae963;}
+label#demo-multiple-checkbox-label { font-family: 'Arima Madurai', cursive; color: black; }
+
+
+
+
+/*ITEMS CONTAINER */
+.productsView {display: flex;
+    flex-direction: column;
+    margin-top: 14%;}
+
+.productsCont {display: flex;
+    width: 100%;
+  margin-top: 1%;
+    margin-left: 2.5%;
+  }
+
+#itemsCont {width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiCard-root.css-1eg3ndz-MuiPaper-root-MuiCard-root{
+    margin: 1%;
+    height: 240px;
+}
+
+/* CATEGORYS CONT */
+
+.categorysCont h2 {font-family: 'Arima Madurai', cursive;
+    font-size: 20px;
+   margin-left: 8%;
+margin-top: 12%;
+color: #423f3f}
+
+.MuiListItemText-root.css-tlelie-MuiListItemText-root {margin-left: 5%;}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+    margin-top: 23%;
+    position: absolute;
+    z-index: 1;
+}
+
+span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-10hburv-MuiTypography-root{
+     font-family: 'Arima Madurai', cursive;}
+
+
+/* ITEM DETAIL */
+
+.roundBtn {  
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px 3px rgba(0, 0, 0, 0.267);
+    border-width: thin;
+    border-color: transparent;
+    background-color: white;
+  
+    }
+
+.contador {    display: flex;
+    align-items: center;
+    width: 24%;
+}
+
+.contador p {font-size: 18px; margin-left: 13%;
+    margin-right: 15%; }
+.roundBtn:hover {background-color:#9861b596;color: white;}
+.itemDetail {display: flex; justify-content: center;}
+.detailContainer{    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 7%;
+    font-family: 'Arima Madurai', cursive;}
+
+.detailContainer h1 {margin-top: 0; 
+        margin-bottom: 1;}
+.detailContainer h2 {color: #353535;margin-top: 0; 
+    margin-bottom: 0;}
+.itemDescrip {width: 80%;
+    color: #363636;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    font-size: 20px;}
+
+
+
+  .addToCart{
+    color: rgb(255 255 255 / 80%) !important;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 0.5em 1.2em;
+    background: #9861b596;
+    border: 2px solid;
+    border-color: #9861b51c;
+    position: relative;
+    margin-top: 3%;
+    font-family: 'Open Sans', sans-serif;
+    
+  }
+  .addToCart:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px #b173d1;
+    transition: all 0.2s ease;
+ }  
+
+ .detailContainer h1 {font-size: 40px;color: #000000b3}
+ .detailContainer h6 {font-size: 16px;color: grey;}
+ .detailContainer h2 {font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #767676;
+    font-size: 25px;
+}
+.addToFavs {display: flex;}
+.addToFavs button {border: transparent; background-color: transparent;margin-left: 3px;}

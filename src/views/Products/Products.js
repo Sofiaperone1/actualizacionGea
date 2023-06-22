@@ -12,13 +12,13 @@ export default function Products() {
   <div className="productsView">    
 
     <div className='themeBars'>
-       <h1>PRODUCTOS</h1>
+       <h1>PRODUCTS</h1>
     </div>
-        <FindBar/>
+    <FindBar/>
 
   <div className='productsCont'>
   <CategorysCont/>
-        <ItemsCont/>
+  <ItemsCont/>
  </div>   
 
 </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useEffect}from 'react'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import './Home.css';
 import Divider from '@mui/material/Divider';
@@ -8,18 +8,25 @@ import fu1 from '../../Imgs/fu1.1.png';
 import fu2 from '../../Imgs/fu2.1.png';
 import fu3 from '../../Imgs/fu3.1.png';
 import fu4 from '../../Imgs/fu4.1.png';
+import AOS from "aos";
+import 'aos/dist/aos.css'
 
 //reemplazar los import por algo mas funcional
 //AGREGAR TARJETAS CON ANIMACION
 
  
 const FollowUs = () => {
+
+  useEffect(() => {
+    AOS.init({duration:2000})
+  }, [])
+
   return (
   
     <div className='followUs'>
 
-<InstagramIcon sx={{ fontSize: 45 }}/>
-<h1> Encontranos en las redes</h1>
+<InstagramIcon  data-aos="fade-right"sx={{ fontSize: 45 }}/>
+<h1 data-aos="fade-right" > Encontranos en las redes</h1>
 
 <Divider /> 
 
@@ -38,10 +45,10 @@ const FollowUs = () => {
       },
     }}
 > 
-    <Paper elevation={3} > <img src={fu1} alt='followUs1' /> </Paper>
-    <Paper elevation={3} > <img src={fu2} alt='followUs2' /> </Paper>
-    <Paper elevation={3} > <img src={fu3} alt='followUs3' /> </Paper>
-    <Paper elevation={3} > <img src={fu4} alt='followUs4' /> </Paper>
+    <Paper data-aos="flip-left" elevation={3} > <img src={fu1} alt='followUs1' /> </Paper>
+    <Paper data-aos="flip-left" elevation={3} > <img src={fu2} alt='followUs2' /> </Paper>
+    <Paper data-aos="flip-left"elevation={3} > <img src={fu3} alt='followUs3' /> </Paper>
+    <Paper data-aos="flip-left" elevation={3} > <img src={fu4} alt='followUs4' /> </Paper>
   </Box>
     
     </div>

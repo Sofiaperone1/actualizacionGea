@@ -1,11 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import meetUs from '../../Imgs/meetUs4.png'
 import Divider from '@mui/material/Divider';
 import Button from '@mui/material/Button';
-
+import AOS from "aos";
+import 'aos/dist/aos.css'
 const MeetUs = () => {
+
+  useEffect(() => {
+    AOS.init({duration:2000})
+  }, [])
+
   return (
-    <div className='meetUs'>
+    <div className='meetUs'data-aos="fade-right">
       <img src={meetUs}  alt='img-meetUs'/>
         <div className='meetUs-text'>
             <h2> Quienes somos? </h2>

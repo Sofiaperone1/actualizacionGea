@@ -1,137 +1,41 @@
-import React from 'react'
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
 import '../../views/Products/Products.css'
+import React, { useContext} from "react" ;
+import { Link } from 'react-router-dom';
+import Item from "./Item"
+import { ItemContext } from "../CartContext/CartContext"
+ 
+
 
 const ItemsCont = () => {
-  return (
-    <div id='itemsCont'>
-          
-          <Card sx={{ maxWidth: 240 }}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
-        alt="sahumerios"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Sahumerios
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lorem ipsum   Lorem ipsum   Lorem ipsum   Lorem ipsum
-        </Typography>
-      </CardContent>
-    
-    </Card>
-    <Card sx={{ maxWidth: 240 }}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
-        alt="sahumerios"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Sahumerios
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lorem ipsum   Lorem ipsum   Lorem ipsum   Lorem ipsum
-        </Typography>
-      </CardContent>
-    
-    </Card>
-    <Card sx={{ maxWidth: 240 }}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
-        alt="sahumerios"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Sahumerios
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lorem ipsum   Lorem ipsum   Lorem ipsum   Lorem ipsum
-        </Typography>
-      </CardContent>
-    
-    </Card>
-    <Card sx={{ maxWidth: 240 }}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
-        alt="sahumerios"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Sahumerios
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lorem ipsum   Lorem ipsum   Lorem ipsum   Lorem ipsum
-        </Typography>
-      </CardContent>
-    
-    </Card>
-    <Card sx={{ maxWidth: 240 }}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
-        alt="sahumerios"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Sahumerios
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lorem ipsum   Lorem ipsum   Lorem ipsum   Lorem ipsum
-        </Typography>
-      </CardContent>
-    
-    </Card>
-    <Card sx={{ maxWidth: 240 }}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
-        alt="sahumerios"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Sahumerios
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lorem ipsum   Lorem ipsum   Lorem ipsum   Lorem ipsum
-        </Typography>
-      </CardContent>
-    
-    </Card>
-    <Card sx={{ maxWidth: 240 }}>
-      <CardMedia
-        component="img"
-        height="140"
-        image="/static/images/cards/contemplative-reptile.jpg"
-        alt="sahumerios"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-        Sahumerios
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lorem ipsum   Lorem ipsum   Lorem ipsum   Lorem ipsum
-        </Typography>
-      </CardContent>
-    
-    </Card>
 
+  const {products, handleChange, searchedProduct,getProductById} = useContext(ItemContext);
+   
+
+
+let searchedProducts = products;
+
+if (!handleChange) { searchedProducts = products} 
+else { searchedProducts = products.filter((dato) => 
+                              dato.name.toLowerCase().includes(searchedProduct.toLowerCase())) }
+
+
+ return (
+    <div id="itemsCont">
+
+{searchedProducts.map ((product) =>  {
+  
+  return (     
+    
+    <Link className="linkToProd" to={`/detail/${product.id}`} onClick={getProductById}>
+    <Item className="itemCard" key={product.id} data={product} />  
+    </Link>
+    
+    )})} 
 
     </div>
-  )
-}
+  ) 
+
+
+} 
 
 export default ItemsCont

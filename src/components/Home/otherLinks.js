@@ -1,12 +1,20 @@
-import React from 'react'
+import React ,{useEffect}from 'react'
 import icon1 from '../../Imgs/icon1.png'
 import icon2 from '../../Imgs/icon2.png'
 import icon3 from '../../Imgs/icon3.png'
 import Divider from '@mui/material/Divider';
 import fu4 from '../../Imgs/fu4.1.png';
+import AOS from "aos";
+import 'aos/dist/aos.css'
 
 
 const OtherLinks = () => {
+
+
+  useEffect(() => {
+    AOS.init({duration:2000})
+  }, [])
+
   return (
 <div className='otherLinks'>
     <div className='firstContainer'>
@@ -21,56 +29,81 @@ const OtherLinks = () => {
     <div className='secondContainer'>
     <div className='firstLineC'>
             <div>
-                <h2>
+            <a href="https://veganexpedition.com/blogs/journal-blog/la-magia-que-esta-en-el-aire" >
+  
+                <h2 data-aos="fade-right">
                     Sahumar
                 </h2>
-                <h4>
-                    Su significado material y espiritual
+                <h4 data-aos="fade-right">
+                    ¿Porque sahumamos?
+                    <br/>
+                    Significado espiritual
                 </h4>
+            </a>
             </div>
             <div>
-                <h2>
-                ¿Para qué sirve un sahumerio?
+                <a href='https://www.bioguia.com/hogar/10-hierbas-para-sahumar-y-quitar-las-malas-vibras_81482340.html'>
+                <h2 data-aos="fade-right">
+                ¿Con que sahumamos?
                 </h2>
-                <h4>
-                Limpiar energéticamente y alcanzar un estado de armonía
+                <h4 data-aos="fade-right">
+         Aprende a usar los diferentes tipos de hierbas para cumplir diferentes objetivos
                 </h4>
+                </a>
+             
             </div>
             <div>
-                <h2>
-                Cómo sahumar tu espacio?
+                <a href="https://www.clarin.com/entremujeres/mexico/horoscopo/Limpia-energia-negativa-hogar-hierbas_0_r1A8X99t.html">
+                <h2 data-aos="fade-right">
+                Cómo sahumar?
                 </h2>
-                <h4>
-                Aclara tu intención  Elige tus elementos 
+                <h4 data-aos="fade-right">
+              Protecciones que debes tener en cuenta
                 </h4>
+                </a>
+                
             </div>
     </div>
     <img className='imgRotativa' src={fu4} alt='img-rotativa' />
     <div className='secondLineC'>
             <div>
-                <h2>
-                Ventila y enciende 
+                <a href="https://es.wikipedia.org/wiki/Sahumadora">
+                <h2 data-aos="fade-left">
+                La historia del sahumo
                 </h2>
-                <h4>
-                Cada planta o resina tiene un proceso diferente de incendio
+                <h4 data-aos="fade-left">
+              Como surgio, quienes lo hacian y en que contexto.
                 </h4>
+
+                </a>
             </div>
+
             <div>
-                <h2>
-                Realiza movimientos circulares hacia la derecha 
+                <a href="https://es.wikipedia.org/wiki/Ecolog%C3%ADa_espiritual">
+
+                <h2 data-aos="fade-left">
+               La ecologia espiritual
                 </h2>
-                <h4>
-                Empieza contigo mismo comenzando por los pies hasta la cabeza y de ahí regresando al corazón,
+                <h4 data-aos="fade-left">
+                Una respuesta espiritual a la crisis ecologica.
                 </h4>
+                </a>
+
             </div>
+
             <div>
-                <h2>
-                Cierra 
+                <a href="https://mymodernmet.com/es/productos-ecologicos/">
+                
+                <h2 data-aos="fade-left">
+                Seccion ecologicos
                 </h2>
-                <h4>
-                Tómate unos minutos para reposar tus pensamientos.
+                <h4 data-aos="fade-left">
+                20 Productos ecológicos con estilo para ayudar a salvar el planeta
                 </h4>
+
+                </a>
             </div>
+
     </div>
     </div>
 </div>

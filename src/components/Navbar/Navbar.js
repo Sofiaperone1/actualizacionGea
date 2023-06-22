@@ -31,12 +31,7 @@ window.addEventListener ('scroll', changeBackground);
   <li><Link to="/" className="navlinks" >Home</Link></li>
   <li><Link to="/productos" className="navlinks" >Shop</Link></li>
   <li><Link to="/contact" className="navlinks" >Contact</Link></li>
-  <li><Link to="/cartWidget" className="navlinks" ><LocalMallIcon/></Link></li>
-          
-      
-        
-          
-         
+  <li><Link to="/cartWidget" className="navlinks" ><LocalMallIcon/></Link></li>              
 </ul>
 
  </div>

@@ -1,0 +1,47 @@
+
+import React from 'react'
+
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
+
+
+
+const Item = ({data})  => {
+  return (
+
+          <div className='itemsCard'>
+            <img src={data.img} alt="prod img" />
+            <div className='itemsC_text'>
+              <h3 className='itemC_text_tt'>{data.name}</h3>
+              <h3>${data.price}</h3>
+              <h4>+ see more</h4>
+            </div>
+          </div>
+  
+ 
+    )
+}
+
+export default Item
+
+/*   <Card sx={{ maxWidth: 240 }}>
+      <CardMedia
+        component="img"
+        height="140"
+        image={data.img}
+        alt="productoImg"
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+       <h5>{data.name}</h5> 
+      
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        ${data.price}
+        + see more details
+        </Typography>
+      </CardContent>
+    
+    </Card> */

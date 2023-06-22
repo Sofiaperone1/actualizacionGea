@@ -3,13 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&display=swap');
+
+
 /* BANNER */
+
+
 
 .homeBackg{background-image: url(../../Imgs/fondoB.jpg); height: 580px;    display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 12%;}
+  margin-top: 12%;
+margin-bottom: 5%;}
 
 .homeBackg h1 { font-family: 'Caveat', cursive; color: white; font-size:120px ; margin-bottom: 0px;}
 
@@ -17,37 +22,50 @@
 
 .homeBtn {margin-top: 0px;}
 button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.homeBtn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
-  background: linear-gradient(to bottom, #d1940b, #584e1b78);
-    border-color: #ffffff3f;
-    font-family: 'Rancho', cursive;
-    font-size: 16px;
-    color: #fff2f2;
-    background-color: #af822f;
-    margin-bottom: 25%;
+ 
+  border-color: rgb(255 255 255 / 80%);
+  font-family: initial;
+  font-size: 15px;
+  color: #000000b5;
+  background-color: #5c5b5833;
+  margin-bottom: 25%;
+  margin-top: 11%;
 }
+
+button.MuiButton-root.MuiButton-outlined.MuiButton-outlinedPrimary.MuiButton-sizeMedium.MuiButton-outlinedSizeMedium.MuiButtonBase-root.homeBtn.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover{background-color: white;  }
+
+/* THEME BAR HOME */
+
+.themeBarHome {
+  background-color:#9861b596; height: 80px;align-items: center;
+    justify-content: center; display: flex; 
+}
+.themeBarHome h1 { font-family: 'DM Serif Display', serif; margin-top: 1%;color: white;}
 
 /* MEET US */
 
-.meetUs {display: flex; justify-content:center;margin-top: 5%; background-color: rgb(255, 254, 254);}
+.meetUs {display: flex; justify-content:center;margin-top: 5%; background-color: rgb(255, 254, 254);margin-bottom: 10%;}
 .meetUs-text {width: 35%; margin-left: 3%; margin-right: 10%;}
-.meetUs-text h2 {font-family: 'Arima Madurai', cursive; font-size: 28px; margin-bottom: 4%;}
-.meetUs-text h4 {font-family: 'Arima Madurai', cursive; ; font-size: 16px; font-weight: 200;}
-button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-sghohy-MuiButtonBase-root-MuiButton-root{background-color: rgba(15, 130, 136, 0.76);font-family: 'Arima Madurai', cursive;}
+.meetUs-text h2 {font-family: 'Arima Madurai', cursive; font-size: 28px; margin-bottom: 1%;}
+.meetUs-text h4 {font-family: 'Arima Madurai', cursive; ; font-size: 17px; font-weight: 200;margin-top: 3%}
+button.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButtonBase-root.css-sghohy-MuiButtonBase-root-MuiButton-root{background-color: rgba(15, 130, 136, 0.76);font-family: 'Arima Madurai', cursive; margin-top: 3%;}
 hr.MuiDivider-root.MuiDivider-middle.css-ft4jij-MuiDivider-root {width: 25%; border-color: rgba(17, 141, 148, 0.76);border-bottom-width: medium; margin-left: 0px;}
+
 
 /* FOLLOW US */
 
 .followUs {display: flex; flex-direction: column; align-items: center;margin-top: 6%;}
 svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-1v1ksuj-MuiSvgIcon-root {color:#b173d1;}
 .followUs h1 {font-family: 'Arima Madurai', cursive; margin-top: 8px;margin-bottom: 10px;}
-.followUs h3 {font-family: 'Arima Madurai', cursive; font-weight: 300; }
+.followUs h3 {font-family: 'Arima Madurai', cursive; font-weight: 300; margin-top: 1%;}
 .followUs h3 span {color: #b173d1;}
 hr.MuiDivider-root.MuiDivider-fullWidth.css-9mgopn-MuiDivider-root {width: 150px;border-color: #b173d1;border-bottom-width:initial}
 
 /* OTHER LINKS */
 
 .otherLinks {display: flex;
-  flex-direction: column;font-family: 'Arima Madurai', cursive;}
+  flex-direction: column;font-family: 'Arima Madurai', cursive;margin-top: 5%; background-color: #9e9e9e11;
+  padding-top: 4%; padding-bottom:6%;margin-bottom: 5%;}
 .otherLinks h4 {font-weight: 300; margin-top: 0px;}
 .otherLinks h2 { margin-bottom: 5px;}
 .otherLinks h1 {margin-bottom: 5px; margin-top: 7px
@@ -56,5 +74,9 @@ hr.MuiDivider-root.MuiDivider-fullWidth.css-9mgopn-MuiDivider-root {width: 150px
 .secondContainer {display: flex; justify-content: space-evenly;}
 .firstLineC {width: 20%;}
 .secondLineC{width: 20%;}
-.imgRotativa {width: 30%;}
-
+.imgRotativa {width: 33%; height: 374px}
+.secondContainer a {text-decoration: none;
+  color: black;}
+  .secondContainer a:hover{ color:rgba(17, 141, 148, 0.76)}
+.firstLineC div {margin-bottom: 4%; }
+.secondLineC div {margin-bottom: 4%; }

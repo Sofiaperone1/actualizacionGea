@@ -1,21 +1,49 @@
+import Form from "../../components/ContactForm/Form.js"
 import React from "react";
-import Button from '@mui/material/Button';
-
-import Box from '@mui/material/Box'; 
-import Paper from '@mui/material/Paper';
-import TextField from '@mui/material/TextField';
-import Checkbox from '@mui/material/Checkbox';
-
+import "./ContactForm.css"
+import Maps from "../../components/Maps.js";
+import Divider from '@mui/material/Divider';
+import Sucursales from './Sucursales.js'
 
 const ContactForm  = () => {
-  const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
+  const label = { inputProps: { 'aria-label': 'Checkbox demo' } };  
+  
  
 
   return (
-   
+   <div className="contactView">
+
+    <div className='themeBars'>
+    <h1>CONTACT US </h1>
+ </div>   
+ <div className="contactFormBlock" >   
+    <div>
+    
+    <h1>NUESTRAS SUCURSALES:</h1>
+    <Divider />
+    <div className="branchOfficesInfo">
+    <Sucursales/>
+    </div>
+    </div>
+    <div className="mapContainer">
+  <Maps/>
+    </div>
+    
+    </div>
+            <Form/>
+   </div>
+
                   
-                    <div className="fondo">
-                   <Box
+               
+  ) };
+
+export default ContactForm;
+
+
+
+/* 
+
+   <Box
       sx={{
         display: 'flex',
         flexWrap: 'wrap',
@@ -65,9 +93,5 @@ const ContactForm  = () => {
     </Box>
     </Paper>
     </Box>
-                    </div>
-                  
-               
-  ) };
 
-export default ContactForm;
+    */

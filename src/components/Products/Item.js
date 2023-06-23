@@ -1,12 +1,6 @@
 
 import React from 'react'
 
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Typography from '@mui/material/Typography';
-
-
 
 const Item = ({data})  => {
   return (
@@ -14,8 +8,8 @@ const Item = ({data})  => {
           <div className='itemsCard'>
             <img src={data.img} alt="prod img" />
             <div className='itemsC_text'>
-              <h3 className='itemC_text_tt'>{data.name}</h3>
-              <h3>${data.price}</h3>
+              <h3>{data.name}</h3>
+              <h3 style={{"color":"red", "fontWeight":"bold"}}>${data.price}</h3>
               <h4>+ see more</h4>
             </div>
           </div>

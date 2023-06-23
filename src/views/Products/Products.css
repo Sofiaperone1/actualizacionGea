@@ -10,20 +10,6 @@
 }
 .themeBars h1 { font-family: 'DM Serif Display', serif; margin-top: 1%;color: #423f3f;}
 
-
-/*
-.MuiInputBase-root.MuiInputBase-colorPrimary.css-7mt4h1-MuiInputBase-root{background-color: #80808014;}
-
-.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
-        height: 41px;
-        margin-top: 2.5%;
-        background-color: #8080801a;
-        .MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover {background-color: #c47ae96b;}
-        .MuiFormControl-root.css-oibiuj-MuiFormControl-root {margin-right: 3%;}
-        .MuiInputBase-root.MuiInputBase-colorPrimary.css-7mt4h1-MuiInputBase-root {font-family: 'Arima Madurai', cursive; }
-        .css-1lsmbw4 {border: solid 1px #80808075; color: black;}
-        .MuiInputBase-root.MuiInputBase-colorPrimary.css-7mt4h1-MuiInputBase-root:hover {background-color: #c47ae963;}
-    }*/
 label#demo-multiple-checkbox-label { font-family: 'Arima Madurai', cursive; color: black; }
 
 
@@ -32,15 +18,15 @@ label#demo-multiple-checkbox-label { font-family: 'Arima Madurai', cursive; colo
 
 .productsView {display: flex;
     flex-direction: column;
-    margin-top: 16%;}
+    margin-top: 12%;}
 
 .productsCont {display: flex;
     width: 93%;
   margin-top: 1%;
     margin-left: 2.5%;
   }
-#itemsCont a {width: 20%;margin-left: 2%;
-    margin-right: 2%; margin-bottom: 2%; margin-top: 2%;
+#itemsCont a {width: 20%;
+    margin: 2%;
     border: 2px solid #8080803d;
     border-radius: 7px;
 }
@@ -49,19 +35,26 @@ label#demo-multiple-checkbox-label { font-family: 'Arima Madurai', cursive; colo
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  
+    height: 90vh;
 }
-
+.linkToProd {
+    height: 40vh;
+}
 .itemsCard img {
     width: 100%;
     height: 131px;
 }
+
+
 .itemsC_text h3 {
     margin-bottom: 3%;
     font-weight: 300;
     color: #303030e0;
-    font-family: 'DM Serif Display';
-    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
     margin-left: 4%;
+    margin-top: 4%;
 }
 .itemsC_text h4 {
     font-style: oblique;
@@ -69,16 +62,19 @@ label#demo-multiple-checkbox-label { font-family: 'Arima Madurai', cursive; colo
     margin-top: 5%;
     margin-bottom: 4%;
     font-family:cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .linkToProd {text-decoration: none;  
     color: #303030}
-/* CATEGORYS CONT */
 
-.categorysCont h2 {font-family: 'Arima Madurai', cursive;
+    /* CATEGORYS CONT */
+
+
+.categorysCont h2 {font-family: 'DM Serif Display', serif;
     font-size: 20px;
    margin-left: 8%;
-margin-top: 12%;
+margin-top: 0%;
 color: #423f3f}
 
 .MuiListItemText-root.css-tlelie-MuiListItemText-root {margin-left: 5%;}
@@ -114,12 +110,15 @@ span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-10hburv-
 .contador p {font-size: 18px; margin-left: 13%;
     margin-right: 15%; }
 .roundBtn:hover {background-color:#9861b596;color: white;}
-.itemDetail {display: flex; margin-top: 14%;justify-content: center;}
+.itemDetail {display: flex; margin-top: 14%;justify-content: center; }
 .detailContainer{   
     margin-top: 5%;
     margin-left: 5%;
    width: 45%;
-    font-family: 'Arima Madurai', cursive;}
+    font-family: 'Arima Madurai', cursive;
+
+   
+}
 
 .itemDescrip {width: 100%;
     color: #363636;
@@ -148,17 +147,17 @@ span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-10hburv-
     box-shadow: 0 4px 16px #b173d1;
     transition: all 0.2s ease;
  }  
- .detail_desc {width: 45%;}
- .detail_desc h1 { font-size: 34px;
+ .detail_desc {width: 45%; }
+ .detail_desc h1 { font-size: 30px;
     color: #000000cf;
     margin-top: 0;
-    margin-bottom: 5%;
-    font-family: 'Open Sans', sans-serif;}
+    margin-bottom: 4%;
+    font-family: 'DM Serif Display', serif;}
 
  .detail_desc h2 {    font-family: 'Open Sans', sans-serif;
         font-weight: bold;
-        color: #767676;
-        font-size: 28px;
+        color: red;
+        font-size: 26px;
         margin-top: 0%;
         margin-bottom: 2%;
         font-family: 'Open Sans', sans-serif;
@@ -225,37 +224,3 @@ span.MuiTypography-root.MuiTypography-body1.MuiListItemText-primary.css-10hburv-
 }
 .productFinders #selectInput { height: 33px; margin: 5px;}
 
-
-
-
- /*
- .select_filter {
-    width: 9%;
-    border: 1px solid #00000078;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 5px;
-    margin-right: 6%;
-    height: 31px;
- }
-
- .select_filter h5 {
-    margin-left: 8%;
-    font-size: 15px;
-    font-weight: 400;
- }
-
-
-
-.productFinders input {height: 29px;
-    width: 11%; margin-left:3px}
-
-
-
-    .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
-        padding: 0;
-    }
-    .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select{padding: 0;}
-
-    .MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root{height: 33px;} */

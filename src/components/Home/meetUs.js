@@ -11,7 +11,7 @@ const MeetUs = () => {
   }, [])
 
   return (
-    <div className='meetUs'data-aos="fade-right">
+    <div className='meetUs'data-aos="fade-right" data-aos-duration="900">
       <img src={meetUs}  alt='img-meetUs'/>
         <div className='meetUs-text'>
             <h2> Quienes somos? </h2>

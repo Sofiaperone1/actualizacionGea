@@ -1,11 +1,8 @@
 
-
-import { ConstructionOutlined, ContentCutRounded } from "@mui/icons-material";
 import React from "react";
-
 import {useState, useContext} from "react"
 import { ItemContext } from "../CartContext/CartContext";
-
+import Swal from 'sweetalert2'
 
 
 
@@ -28,16 +25,26 @@ const ItemCount = ({data}) => {
        
                             }};
 
-        const addToCart = () => { cart.push({cant:counter, name:data.name, price:data.price, total:counter*data.price}) ;
-                                  console.log(cart);
-                               
-                                 const sumall = cart.map(item => item.total).reduce((prev, curr) => prev + curr, 0);
-                                 console.log(sumall)
-                                 setCount(sumall)
-
-                                
-
-       }
+  const addToCart = () => { cart.push({cant:counter, name:data.name, price:data.price, total:counter*data.price}) ;
+                           console.log(cart);
+                        
+                          const sumall = cart.map(item => item.total).reduce((prev, curr) => prev + curr, 0);
+                          console.log(sumall)
+                          setCount(sumall)
+        
+                          const Toast = Swal.mixin({
+                            toast: true,
+                            position: 'bottom-end',
+                            showConfirmButton: false,
+                            timer: 900,
+                        
+                          })
+                          
+                          Toast.fire({
+                            icon: 'success',
+                            title: 'Producto agregado'
+                          })
+                        }
 
      /*  fruits = [
         {  description: 'orange', Amount: 50},

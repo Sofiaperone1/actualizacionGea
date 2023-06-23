@@ -18,7 +18,7 @@ const drawerWidth = 240;
   return (
     <div className='categorysCont'>
         
-        <Drawer
+        <Drawer id='drawer'
     variant="permanent"
     sx={{
       width: drawerWidth,
@@ -27,7 +27,7 @@ const drawerWidth = 240;
     }}
   >
     
-    <Box sx={{ overflow: 'auto' }}>
+    <Box className='box' sx={{ overflow: 'auto' }}>
     <h2> Buscar por categoria </h2>
       <List>
         {['Todos','Sahumerios', 'Recipientes', 'Sales', 'Velas' ,"Carbones"].map((text) => (

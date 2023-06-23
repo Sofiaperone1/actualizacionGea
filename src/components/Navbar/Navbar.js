@@ -27,11 +27,11 @@ window.addEventListener ('scroll', changeBackground);
 <img src={logo1} className= {navbar ? 'logo active' : 'logo'} alt='logoGea' />
        
 
-<ul>
-  <li><Link to="/" className="navlinks" >Home</Link></li>
-  <li><Link to="/productos" className="navlinks" >Shop</Link></li>
-  <li><Link to="/contact" className="navlinks" >Contact</Link></li>
-  <li><Link to="/cartWidget" className="navlinks" ><LocalMallIcon/></Link></li>              
+<ul className='ul-navbar'>
+  <li><Link style={{"textDecoration":"none"}} to="/" className="navlinks" >Home</Link></li>
+  <li><Link  style={{"textDecoration":"none"}} to="/productos" className="navlinks" >Shop</Link></li>
+  <li><Link  style={{"textDecoration":"none"}} to="/contact" className="navlinks" >Contact</Link></li>
+  <li><Link  style={{"textDecoration":"none"}} to="/cartWidget" className="navlinks" ><LocalMallIcon/></Link></li>              
 </ul>
 
  </div>

@@ -3,7 +3,7 @@ import icon1 from '../../Imgs/icon1.png'
 import icon2 from '../../Imgs/icon2.png'
 import icon3 from '../../Imgs/icon3.png'
 import Divider from '@mui/material/Divider';
-import fu4 from '../../Imgs/fu4.1.png';
+import fu4 from '../../Imgs/fu4.2.jpg';
 import AOS from "aos";
 import 'aos/dist/aos.css'
 
@@ -31,10 +31,10 @@ const OtherLinks = () => {
             <div>
             <a href="https://veganexpedition.com/blogs/journal-blog/la-magia-que-esta-en-el-aire" >
   
-                <h2 data-aos="fade-right">
+                <h2 data-aos="fade-right" data-aos-duration="900">
                     Sahumar
                 </h2>
-                <h4 data-aos="fade-right">
+                <h4 data-aos="fade-right" data-aos-duration="900">
                     ¿Porque sahumamos?
                     <br/>
                     Significado espiritual
@@ -43,10 +43,10 @@ const OtherLinks = () => {
             </div>
             <div>
                 <a href='https://www.bioguia.com/hogar/10-hierbas-para-sahumar-y-quitar-las-malas-vibras_81482340.html'>
-                <h2 data-aos="fade-right">
+                <h2 data-aos="fade-right" data-aos-duration="900">
                 ¿Con que sahumamos?
                 </h2>
-                <h4 data-aos="fade-right">
+                <h4 data-aos="fade-right" data-aos-duration="900">
          Aprende a usar los diferentes tipos de hierbas para cumplir diferentes objetivos
                 </h4>
                 </a>
@@ -54,10 +54,10 @@ const OtherLinks = () => {
             </div>
             <div>
                 <a href="https://www.clarin.com/entremujeres/mexico/horoscopo/Limpia-energia-negativa-hogar-hierbas_0_r1A8X99t.html">
-                <h2 data-aos="fade-right">
+                <h2 data-aos="fade-right" data-aos-duration="900">
                 Cómo sahumar?
                 </h2>
-                <h4 data-aos="fade-right">
+                <h4 data-aos="fade-right" data-aos-duration="900">
               Protecciones que debes tener en cuenta
                 </h4>
                 </a>
@@ -68,10 +68,10 @@ const OtherLinks = () => {
     <div className='secondLineC'>
             <div>
                 <a href="https://es.wikipedia.org/wiki/Sahumadora">
-                <h2 data-aos="fade-left">
+                <h2 data-aos="fade-left" data-aos-duration="900">
                 La historia del sahumo
                 </h2>
-                <h4 data-aos="fade-left">
+                <h4 data-aos="fade-left" data-aos-duration="900">
               Como surgio, quienes lo hacian y en que contexto.
                 </h4>
 
@@ -81,10 +81,10 @@ const OtherLinks = () => {
             <div>
                 <a href="https://es.wikipedia.org/wiki/Ecolog%C3%ADa_espiritual">
 
-                <h2 data-aos="fade-left">
+                <h2 data-aos="fade-left" data-aos-duration="900">
                La ecologia espiritual
                 </h2>
-                <h4 data-aos="fade-left">
+                <h4 data-aos="fade-left" data-aos-duration="900">
                 Una respuesta espiritual a la crisis ecologica.
                 </h4>
                 </a>
@@ -94,10 +94,10 @@ const OtherLinks = () => {
             <div>
                 <a href="https://mymodernmet.com/es/productos-ecologicos/">
                 
-                <h2 data-aos="fade-left">
+                <h2 data-aos="fade-left" data-aos-duration="900">
                 Seccion ecologicos
                 </h2>
-                <h4 data-aos="fade-left">
+                <h4 data-aos="fade-left" data-aos-duration="900">
                 20 Productos ecológicos con estilo para ayudar a salvar el planeta
                 </h4>
 

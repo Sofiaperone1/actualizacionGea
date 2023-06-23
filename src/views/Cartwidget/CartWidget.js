@@ -1,6 +1,6 @@
 import React, {useContext, useEffect }from 'react'
 import { ItemContext } from '../../components/CartContext/CartContext'
-import cartWidget from "./cartWidget.css"
+import './cartWidget.css'
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -16,24 +16,21 @@ import DeleteIcon from '@mui/icons-material/Delete';
 }
 */
 
-export default function BasicTable() {
+const CartWidget = () => {
   const {cart,setCart,count ,setCount, sumall} =useContext (ItemContext)
 
 const deleteItem = (e) => {
-
 const selectedProdName = e.target.name;
-
 const deleteditem = cart.filter (e => e.name !== selectedProdName)
 //const updatedCount = count - selectedProdTotal
 const sumall = deleteditem.map(item => item.total).reduce((prev, curr) => prev + curr, 0);
 console.log(sumall)
 setCount(sumall)
 setCart(deleteditem)
-
 }
 
 return (
-<div className='cartWidgetCont'>
+<div className='cartWidget'>
 <div className='themeBars'>
     <h1>SHOP CART</h1>
  </div>     
@@ -45,7 +42,7 @@ return (
   );
 }
 
-
+export default CartWidget;
 /*
  <TableContainer className="cartWidget " component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">

@@ -1,17 +1,17 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import { useParams } from "react-router-dom"
-
 import ItemCount from '../../components/Products/ItemCount';
-
 import { collection,getDocs} from "firebase/firestore";
 import db from "../../firebase"
 
 
 
 
+
 const ItemDetailCont = () => {
   
+
 
  const { id } = useParams();
  const [item, setItem ] = useState([]);
@@ -37,7 +37,7 @@ const ItemDetailCont = () => {
  
 if (item) {
   return (
-    <div  className='itemDetailCont '>
+    <div  className='itemDetailCont'>
       <div className='detail-img'>
       <img src={item.img } alt="prod" />
       </div>

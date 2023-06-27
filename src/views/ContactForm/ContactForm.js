@@ -1,4 +1,4 @@
-import Form from "../../components/ContactForm/Form.js"
+import Form from "../../components/Forms/ContactForm.js"
 import React from "react";
 import "./ContactForm.css"
 import Maps from "../../components/Maps.js";

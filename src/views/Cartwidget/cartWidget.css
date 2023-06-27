@@ -1,9 +1,192 @@
-.cartWidget{ margin-top: 12%;}
+
 
 /*
 
 
+.cartWidget{ margin-top: 12%; display: flex; flex-direction: column; }
 
-.cartTable {border: 2px solid black}
-.cartRows {background-color: blueviolet;}
-.cartFiles { background-color: rgba(128, 128, 128, 0.473);} */
+
+*/
+
+.cartWidget {
+    margin-top: 12%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartWidget .MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root.cartWidget.css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+    width: 66%;
+    margin-top: 2%;
+    box-shadow:none;
+}
+
+.widgetCont {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top:2%
+}
+
+.cartWidget table {
+    margin-top: 4%;
+    border: 2px solid rgba(17, 141, 148, 0.301);
+    width: 90%;
+    margin-bottom: 5%;
+    width: 100%;
+ 
+}
+
+
+.cartWidget table thead tr th {
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    background-color: rgba(17, 141, 148, 0.315);
+   
+}
+.cartWidget table tbody tr td  {
+  
+ 
+    font-size: 15px;
+    padding: 3px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    
+   
+}
+
+.deleteBtnForm {
+    width: 24%;
+    height: 24px;
+    background-color: red;
+    border-radius: 8px;
+    border-color: transparent;
+    color: white;
+    font-size: 17px;
+
+}
+
+
+/*
+
+.ticket {
+    border: 1px solid #b173d1;
+    padding: 2%;
+    width: 35%;
+    display: flex;
+    margin-left: 3%;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.ticket hr.MuiDivider-root.MuiDivider-fullWidth.css-9mgopn-MuiDivider-root{
+        align-self: flex-start;
+}
+
+.ticket h3 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1%;
+    font-size: 20px;
+    align-self: flex-start;
+  }
+
+.giftOption h5 {
+    font-size: 17px;
+    font-weight: 200;
+    font-family: 'Arima Madurai', cursive;
+   
+} 
+
+.orderDetails{
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.giftOption p {
+    width: 80%;
+    margin-bottom: 5%;
+    font-family: 'Arima Madurai', cursive;
+    font-size: 16px;
+}
+.giftOption div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.giftOption button {
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 16px;
+    color: #b173d1;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+table {
+    margin-top: 4%;
+    border: 1px solid black;
+    width: 90%;
+    margin-bottom: 5%;
+    width: 76%;
+ 
+}
+table thead {
+    
+    font-size: 19px;
+    padding: 3px;
+    text-align: center;
+    font-family: 'Arima Madurai', cursive;
+   
+}
+
+table thead tr th {
+    border: 1px solid black;
+}
+table tbody tr td  {
+  
+    background-color: #80808070;
+    font-size: 17px;
+    padding: 3px;
+    text-align: center;
+    
+   
+}
+
+.credCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.credCards p {
+    margin-right: 2%;
+    font-size: 21px;
+}
+
+.cardInput {
+    border: 2px solid #0000005c;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 1%;
+    border-radius: 5px;
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardNumber{  
+    width: 95%;
+    margin-left: 1%;}
+
+    .cardNumber div {
+        display: flex;
+        width: 99%;
+    }
+
+.cardNumber p {
+    margin-bottom: 1%;
+} */

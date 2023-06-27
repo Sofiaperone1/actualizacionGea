@@ -71,5 +71,41 @@ label#standard-number-label{font-family: 'Lora', serif; color: black;}
 .suscribeCF {font-family:'Lora', serif ;text-align: -webkit-center;}
 
 
-*/
+ WIDGET FORM -------- */
 
+.formWidget{
+  
+  font-family: 'Arima Madurai', cursive;
+  padding: 2%;
+}
+.formWidget h3 {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 2%;
+  font-size: 21px;
+}
+
+.formWidget p {
+  margin-bottom: 2%;
+}  
+
+.formWidget input { height: 25px;}
+
+.name, .address {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputCont {
+  width: 50%;
+  margin-right: 3%;
+  margin-top: 3%;
+}
+
+.phone , .message{
+  width: 97%;
+  margin-top: 3%;
+} 
+
+.MuiOutlinedInput-root.MuiInputBase-root.MuiInputBase-colorPrimary.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root, .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 100%;
+}

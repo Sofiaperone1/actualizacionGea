@@ -6,7 +6,7 @@
 /* THEME BARS  */
 
 .themeBars {background-color: rgba(207, 207, 207, 0.753);height: 80px;align-items: center;
-    justify-content: center; display: flex; 
+    justify-content: center; display: flex; width: 100%;
 }
 .themeBars h1 { font-family: 'DM Serif Display', serif; margin-top: 1%;color: #423f3f;}
 

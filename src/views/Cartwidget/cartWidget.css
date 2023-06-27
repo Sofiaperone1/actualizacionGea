@@ -29,19 +29,21 @@
 }
 
 .cartWidget table {
-    margin-top: 4%;
-    border: 2px solid rgba(17, 141, 148, 0.301);
+    margin-top: 1%;
+    border: 2px solid rgba(7, 7, 7, 0.301);
     width: 90%;
     margin-bottom: 5%;
     width: 100%;
- 
+   
 }
 
 
 .cartWidget table thead tr th {
     border: 1px solid rgba(0, 0, 0, 0.247);
-    background-color: rgba(17, 141, 148, 0.315);
-   
+    background-color: rgba(139, 139, 139, 0.13);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
 }
 .cartWidget table tbody tr td  {
   
@@ -50,9 +52,15 @@
     padding: 3px;
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.11);
+    font-family: 'Open Sans', sans-serif;
     
-   
 }
+
+.cartWidget table tbody tr th {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 
 .deleteBtnForm {
     width: 24%;
@@ -66,7 +74,11 @@
 }
 
 
-/*
+/* CHECKOUT */ 
+
+.checkout {
+    margin-top: 12%;
+}
 
 .ticket {
     border: 1px solid #b173d1;
@@ -125,35 +137,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-table {
-    margin-top: 4%;
-    border: 1px solid black;
-    width: 90%;
-    margin-bottom: 5%;
-    width: 76%;
- 
-}
-table thead {
-    
-    font-size: 19px;
-    padding: 3px;
-    text-align: center;
-    font-family: 'Arima Madurai', cursive;
-   
-}
-
-table thead tr th {
-    border: 1px solid black;
-}
-table tbody tr td  {
-  
-    background-color: #80808070;
-    font-size: 17px;
-    padding: 3px;
-    text-align: center;
-    
-   
-}
 
 .credCards {
     display: flex;
@@ -180,7 +163,7 @@ table tbody tr td  {
 
 .cardNumber{  
     width: 95%;
-    margin-left: 1%;}
+   }
 
     .cardNumber div {
         display: flex;
@@ -189,4 +172,36 @@ table tbody tr td  {
 
 .cardNumber p {
     margin-bottom: 1%;
-} */
+}
+
+
+.checkout table {
+    margin-top: 4%;
+    border: 1px solid black;
+    width: 90%;
+    margin-bottom: 5%;
+    width: 76%;
+ 
+}
+.checkout table thead {
+    
+    font-size: 19px;
+    padding: 3px;
+    text-align: center;
+    font-family: 'Arima Madurai', cursive;
+   
+}
+
+.checkout table thead tr th {
+    border: 1px solid black;
+}
+.checkout table tbody tr td  {
+  
+    background-color: #80808070;
+    font-size: 17px;
+    padding: 3px;
+    text-align: center;
+    
+   
+}
+ 

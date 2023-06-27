@@ -1,4 +1,4 @@
-/*import React from 'react'
+
 import React, {useContext, useEffect }from 'react'
 import { ItemContext } from '../../components/CartContext/CartContext'
 import './cartWidget.css'
@@ -58,9 +58,9 @@ const Checkout = () => {
         
         
         return (
-        <div className='cartWidget'>
+        <div className='checkout'>
         <div className='themeBars'>
-            <h1>SHOP CART</h1>
+            <h1>CHECK OUT</h1>
         </div>     
         
         <div className='widgetCont'>
@@ -115,11 +115,11 @@ const Checkout = () => {
         
             </div>
             <div>
-                <FormControl sx={{ m: 1, width: '25ch' }} variant="outlined">
+                <FormControl  style={{width:"94%"}} sx={{ m: 1, width: '25ch' }} variant="outlined">
                   <InputLabel htmlFor="outlined-adornment-password">MM / YY</InputLabel>
                   <OutlinedInput
                     id="outlined-adornment-password"
-                    type={showPassword ? 'text' : 'password'}
+                    
                     endAdornment={
                       <InputAdornment position="end">
                       
@@ -129,7 +129,7 @@ const Checkout = () => {
                   />
                 </FormControl>
           
-                <FormControl sx={{ m: 1, width: '25ch' }} variant="outlined">
+                <FormControl style={{width:"94%", marginTop:"0"}} sx={{ m: 1, width: '25ch' }} variant="outlined">
                   <InputLabel htmlFor="outlined-adornment-password">Password</InputLabel>
                   <OutlinedInput
                     id="outlined-adornment-password"
@@ -169,4 +169,4 @@ const Checkout = () => {
         
 
 
-export default Checkout */
+export default Checkout 

@@ -1,9 +1,7 @@
 
 import React from "react";
 import "./App.css"
-
-
-
+import Checkout from "./views/Cartwidget/Checkout";
 import {  BrowserRouter, Routes, Route} from 'react-router-dom';
 //import ItemDetailContainer from './Views/ItemDetailContainer/ItemDetailContainer';
  import {CartContext} from './components/CartContext/CartContext'
@@ -32,6 +30,7 @@ const App = () => {
      <Route path="/contact" index element={<ContactForm/>}></Route>
      <Route path="/cartWidget" index element={<CartWidget/>}></Route>
      <Route path="/detail/:id"  element={<ItemDetailCont/>} ></Route>
+     <Route path="/checkout"  element={<Checkout/>} ></Route>
      <Route path="*"  component={<Error404/>} ></Route>
 
      </Routes>

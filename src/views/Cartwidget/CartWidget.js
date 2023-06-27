@@ -10,24 +10,6 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button'
 import{NavLink} from "react-router-dom"
-import DeleteIcon from '@mui/icons-material/Delete';
-import WidgetForm from '../../components/Forms/WidgetForm';
-import Checkbox from '@mui/material/Checkbox';
-import { Divider } from '@mui/material';
-import mastercardIcon from "../../Imgs/mastercardIcon.png"
-import visaIcon from "../../Imgs/visaIcon.png"
-import otherCardIcon from "../../Imgs/otherCardIcon.png"
-import IconButton from '@mui/material/IconButton';
-
-import OutlinedInput from '@mui/material/OutlinedInput';
-import InputLabel from '@mui/material/InputLabel';
-import InputAdornment from '@mui/material/InputAdornment';
-
-import FormControl from '@mui/material/FormControl';
-import TextField from '@mui/material/TextField';
-import Visibility from '@mui/icons-material/Visibility';
-import VisibilityOff from '@mui/icons-material/VisibilityOff';
-import Swal from 'sweetalert2'
 
 
 

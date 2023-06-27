@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+/* import React, { Component } from "react";
 import GoogleMaps from "simple-react-google-maps";
 
 export default class Maps extends Component {
@@ -24,4 +24,4 @@ export default class Maps extends Component {
     }
 
 
-}
+} */

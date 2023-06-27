@@ -30,7 +30,7 @@ const App = () => {
      <Route path="/contact" index element={<ContactForm/>}></Route>
      <Route path="/cartWidget" index element={<CartWidget/>}></Route>
      <Route path="/detail/:id"  element={<ItemDetailCont/>} ></Route>
-     <Route path="/checkout"  element={<Checkout/>} ></Route>
+   {/* <Route path="/checkout"  element={<Checkout/>} ></Route> */}  
      <Route path="*"  component={<Error404/>} ></Route>
 
      </Routes>

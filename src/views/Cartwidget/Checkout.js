@@ -1,4 +1,4 @@
-
+/*
 import React, {useContext, useEffect }from 'react'
 import { ItemContext } from '../../components/CartContext/CartContext'
 import './cartWidget.css'
@@ -8,6 +8,7 @@ import { Divider } from '@mui/material';
 import mastercardIcon from "../../Imgs/mastercardIcon.png"
 import visaIcon from "../../Imgs/visaIcon.png"
 import otherCardIcon from "../../Imgs/otherCardIcon.png"
+
 import IconButton from '@mui/material/IconButton';
 
 import OutlinedInput from '@mui/material/OutlinedInput';
@@ -169,4 +170,4 @@ const Checkout = () => {
         
 
 
-export default Checkout 
+export default Checkout */

@@ -1,7 +1,7 @@
 import Form from "../../components/Forms/ContactForm.js"
 import React from "react";
 import "./ContactForm.css"
-import Maps from "../../components/Maps.js";
+//import Maps from "../../components/Maps.js";
 import Divider from '@mui/material/Divider';
 import Sucursales from './Sucursales.js'
 
@@ -26,7 +26,7 @@ const ContactForm  = () => {
     </div>
     </div>
     <div className="mapContainer">
-  <Maps/>
+ {/*  <Maps/> */}
     </div>
     
     </div>

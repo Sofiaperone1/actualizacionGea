@@ -1,4 +1,4 @@
-import React, {useContext} from 'react'
+/*import React, {useContext} from 'react'
 import SearchIcon from '@mui/icons-material/Search';
 import '../../views/Products/Products.css'
 import { ItemContext } from '../CartContext/CartContext';
@@ -47,5 +47,5 @@ const FindBar = () => {
 }
 
 export default FindBar
-/*
- */
+*/
+ 
